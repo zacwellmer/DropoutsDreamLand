@@ -1,5 +1,5 @@
 # Dropout's Dream Land
-Implementation of Dropout's Dream Land in TensorFlow 2.
+Implementation of [Dropout's Dream Land](https://2021.ecmlpkdd.org/wp-content/uploads/2021/07/sub_1026.pdf) in TensorFlow 2.
 
 ## Docker
 The easiest way to handle dependencies is with [Nvidia-Docker](https://github.com/NVIDIA/nvidia-docker). Follow the instructions below to generate and attach to the container.
@@ -28,11 +28,13 @@ This is an entirely imagined frame that never existed.
 ![alt text](imgs/imagined.png "Imagined Frame")
 
 CarRacing gifs showing the true trajectory (left) and the reconstructed trajectory (right). 
+
 Ground Truth             |  Reconstructed
 :-------------------------:|:-------------------------:
 ![alt-text-1](imgs/true_traj.gif "Real Trajectory") | ![alt-text-2](imgs/reconstruct_traj.gif "Reconstructed Trajectory")
 
 Doom gifs showing a trajectory in the true environment (left) and the dream environment (right). 
+
 Ground Truth Environment   |  Dream Environment
 :-------------------------:|:-------------------------:
 ![alt-text-1](imgs/doom_real_traj.gif "Real Trajectory") | ![alt-text-2](imgs/doom_dream_traj.gif "Dream Trajectory")
